@@ -189,8 +189,12 @@ section {
 .section__text__p2 {
     font-size: 1.25rem;
     margin-bottom: 1rem;
+    text-decoration: underline;
 }
-
+.section__text__p3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
 .title {
     font-size: 3rem;
     text-align: center;
@@ -215,7 +219,6 @@ section {
 .btn-container {
     display: flex;
     justify-content: center;
-    gap: 1rem;
 }
 
 .btn {
@@ -318,7 +321,7 @@ section {
 }
 
 .experience-sub-title {
-    color: rgb(85, 85, 85);
+    color: black;
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
@@ -371,6 +374,11 @@ article .icon {
     margin: 1rem;
     color: black;
     font-size: 1rem;
+}
+
+.project-details {
+    color: rgb(85, 85, 85);
+    font-size: 0.8rem;
 }
 
 /* .project-subtitle {
